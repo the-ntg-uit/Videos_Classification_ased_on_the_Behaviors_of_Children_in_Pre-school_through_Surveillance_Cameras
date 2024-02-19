@@ -26,7 +26,7 @@ In preschool, children are active and curious about the world around them. The t
 - **Abnormal**: Videos contain unusual and dangerous actions for children, such as fighting (children physically impact each other or play excessively, causing harm to other children), falling (falling on the ground suddenly), chasing (more than two students run fast, they run without a certain trajectory, make noise and may have an accident), carrying heavy or oversized objects (tables, chairs, beds, or similarly large-sized items can cause injury to children if they trip or if heavy objects fall on them), and other abnormal activities (other less common cases can still pose dangers to children). These actions can be dangerous, leading to injury and accidents or affecting the children's mental health.
 - **Normal**: Videos contain actions that are not dangerous in the observed environment. For example, walking, talking, eating, playing, studying, ..., performed normally and regularly in a school or preschool domain. 
 
-### Phase 3. Labeling and data splitting:
+#### Phase 3. Labeling and data splitting:
 The inter-annotator agreement results for both Cohen's Kappa and Krippendorff measures were good, meeting the set requirements. Therefore, we proceeded to label the videos in our dataset. It is inevitable to encounter challenging and ambiguous cases during the labeling process. To address these issues, the annotators will have meetings to discuss and agree on how to label these problematic and ambiguous cases and update the guidelines to make them more complete. Following this process, we obtained a total of 4268 labeled videos. Finally, we split 4268 videos into three sets: training set, validation set (development set), and test set.
 
 ## 2. Model
